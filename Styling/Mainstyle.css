@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(../images/sylvia-yang-_ar2ENzmqb0-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+.fields {
+  border: 2px solid rgba(0, 0, 0.3);
+  background: transparent;
+  width: 400px;
+  color: black;
+  border-radius: 15px;
+  padding: 30px 40px;
+}
+.fields h1 {
+  font-size: 36px;
+  text-align: center;
+  font-weight: 530;
+}
+.fields .input-box {
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  text-align: center;
+  font-size: x-large;
+  border: 2px solid rgba(0, 228, 237, 0.2);
+  box-shadow: 1 1 30px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 40px;
+  /*border: none;
+    outline: none;*/
+  color: rgba(0, 228, 237);
+}
+.input-box input::placeholder {
+  color: black;
+}
+.fields .remember-password {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14.5px;
+  margin: -15px 0 15px;
+}
+.remember-password label input {
+  accent-color: black;
+  margin-right: 3px;
+}
+.remember-password a {
+  color: black;
+  text-decoration: none;
+}
+.remember-password a:hover {
+  text-decoration: underline;
+}
+.fields .btn {
+  width: 100%;
+  height: 45px;
+  background: white;
+  border-radius: 45px;
+  box-shadow: 1 1 30px 15px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+  cursor: pointer;
+  /*border: none;
+    outline: none;*/
+}
+.fields .register-Link {
+  font-size: 14.5px;
+  text-align: center;
+  margin: 20px 0 15px;
+}
+.fields .register-Link a {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+}
+.register-Link a:hover {
+  text-decoration: underline;
+}
+/* ---------- css for signup page------------*/
+.signup-fields {
+  border: 2px solid rgba(0, 0, 0.3);
+  background: transparent;
+  width: 500px;
+  color: rgb(11, 12, 11);
+  border-radius: 15px;
+  padding: 30px 40px;
+  height: 400px;
+}
+
+.signup-fields #signuph1 {
+  font-size: 26px;
+  text-align: center;
+  font-weight: 530;
+}
+.signup-inputs {
+  width: 100%;
+  margin: 20px 0;
+  height: 300px;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.signup-inputs .items {
+  padding: 5px 0;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  background: transparent;
+}
+.items label {
+  padding-left: 50px;
+  padding-top: 12px;
+  font-size: large;
+}
+.items input {
+  padding-right: 50px;
+  text-align: start;
+  border: 2px solid rgba(0, 228, 237, 0.2);
+  box-shadow: 1 1 30px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  height: 100%;
+  margin-right: 5px;
+}
+.items ::placeholder {
+  font-size: large;
+}
+
+.signup-inputs .btn {
+  display: flex;
+  justify-content: center;
+}
+.btn input {
+  width: 50px;
+  height: 30px;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 1 1 30px 15px rgba(0, 0, 0, 1);
+  font-size: auto;
+  color: #333;
+  font-weight: 600;
+  cursor: pointer;
+}
